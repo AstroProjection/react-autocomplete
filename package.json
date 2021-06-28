@@ -19,6 +19,7 @@
   },
   "scripts": {
     "prepare": "npm run build",
+    "prepublish": "npm run build",
     "generate-readme": "scripty",
     "gh-pages": "scripty",
     "release": "scripty",
